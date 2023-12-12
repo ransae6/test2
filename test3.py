@@ -39,7 +39,7 @@ d = st.number_input( 'd의 값을 입력하시오', value=2000.0, step = 100.0 )
 x=[]
 y=[]
 ycos=[]
-for i in range(-20,31,3): 
+for i in range(-29,31,3): 
     x.append(i)
     y.append(a*i**2 + b*i + c)
     ycos.append(d*np.cos(i))
